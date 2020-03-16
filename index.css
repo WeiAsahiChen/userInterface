@@ -1,10 +1,29 @@
-.title{
-    font-size: 20px;
+nav{
+    border-radius: 32px;
+    background: #a3fff7;
+    box-shadow:  27px 27px 55px #94e8e1, 
+                 -27px -27px 55px #b2ffff;
+}
+
+nav>.title{
+    font-size: 40px;
     font-weight: bold;
     color: darkturquoise;
-    padding-left: 20px;
+    padding-left: 60px;
     padding-top: 10px;
-    }
+}
+nav>.viceTitle{
+    font-size: 15px;
+    font-weight: bold;
+    color: azure;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+
+main{
+    background: #a3fff7;
+}
+
 .content{
     width: 1000px;
     margin-left: auto;
