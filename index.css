@@ -1,28 +1,122 @@
 nav{
     border-radius: 32px;
-    background: #a3fff7;
-    box-shadow:  27px 27px 55px #94e8e1, 
-                 -27px -27px 55px #b2ffff;
+    background: #EBECF0;
+    /* box-shadow:  27px 27px 55px #94e8e1, 
+                 -27px -27px 55px #b2ffff; */
 }
 
 nav>.title{
     font-size: 40px;
     font-weight: bold;
-    color: darkturquoise;
+    color: #0C9C9D;
     padding-left: 60px;
     padding-top: 10px;
 }
 nav>.viceTitle{
     font-size: 15px;
     font-weight: bold;
-    color: azure;
+    color: #A6F3F3;
     padding-left: 60px;
     padding-bottom: 10px;
 }
 
 main{
-    background: #a3fff7;
+    border-radius: 20px;
+    box-shadow:  5px 5px 20px #bcc3cd, 
+                -5px -5px 20px #ffffff;
+    width: 1100px;
+    height: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: #ebecf0;
+    display: flex;
+    
 }
+main>.mapScreen{
+    width: 35%;
+    margin: 15px;
+    border-radius: 15px;
+    background: #E3EBF7;
+    box-shadow:  5px 5px 20px #bcc3cd, 
+             -5px -5px 20px #ffffff;
+}
+main>.info{
+    width: 65%;
+    margin: 15px;
+    background-color: blue;
+}
+.map{
+    border-radius: 15px;
+    margin: 5px;
+    background-image: url("taiwan.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.top{
+    height: 20%;
+    background-color: #ebecf0;
+    display: flex;
+}
+.part{
+    height: 5%;
+    background-color: #ebecf0;
+}
+.middle{
+    height: 70%;
+    background-color: green;
+}
+.bottom{
+    height: 5%;
+    background-color: white;
+}
+.rL{
+    width: 10%;
+    background-color: blue;
+}
+.r1{
+    border-radius: 15px;
+    background: #E3EBF7;
+    box-shadow:  5px 5px 20px #bcc3cd, 
+             -5px -5px 20px #ffffff;
+    width: 160px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.rR{
+    border-radius: 15px;
+    background: #E3EBF7;
+    box-shadow:  5px 5px 20px #bcc3cd, 
+             -5px -5px 20px #ffffff;
+    width: 160px;
+    margin-left: 30px;
+}
+.case{
+    font-size: 15px;
+    font-weight: bold;
+    color: #0C9C9D;
+    position: relative;
+    top: -20px;
+}
+.num{
+    font-size: 60px;
+    font-weight: bold;
+    color: #0C9C9D;
+    position: relative;
+    text-align: left;
+    top: -25px;
+    right: -20px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .content{
     width: 1000px;
@@ -33,10 +127,10 @@ main{
 }
 .box{
     border-radius: 32px;
-    background: #98e9d9;
-    box-shadow:  27px 27px 54px #8ad4c5, 
+    background:#E3EDF7;
+    /* box-shadow:  27px 27px 54px #8ad4c5, 
                  -27px -27px 54px #a6feed;
-    /*background-color:lightgrey;*/
+    background-color:lightgrey; */
     width: 280px;
     margin: 10px;
     padding: 10px;
@@ -50,12 +144,7 @@ main{
     color: darkturquoise;
     padding: 10px;
 }
-.num{
-    font-size: 60px;
-    font-weight: bold;
-    color: darkturquoise;
-    padding: 20px;
-}
+
 .plus{
     position: relative;
     top: -15px;
@@ -63,3 +152,8 @@ main{
     font-weight: bold;
     color: lightcyan;
 }
+/* 
+number #0C9C9D
+plus #A6F3F3
+board #E3EDF7
+backcolor #EBECF0 */
