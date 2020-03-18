@@ -258,8 +258,7 @@ main>.info{
     padding: 10px;
     position: relative;
     border-radius: 10px;
-    background-color: black;
-    opacity: 1%;
+    opacity: 0.01;
     top: -190px;
     right: -320px;
     width: 200px;
@@ -270,7 +269,7 @@ main>.info{
     position: relative;
     border-radius: 10px;
     background-color: black;
-    opacity: 50%;
+    opacity: 0.5;
     top: -190px;
     right: -320px;
     width: 190px;
