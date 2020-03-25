@@ -1,4 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 nav{
+    z-index: 2;
     position: relative;
     margin-bottom: 40px;
     width: 100%;
@@ -139,6 +144,15 @@ main>.info{
     background-repeat: no-repeat;
     background-size: 680px 55px;
 }
+.day{
+    position: relative;
+    color:#0C9C9D;
+    font-size: 11px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    top:-32px;
+    left:614px;
+}
 .rL{
     width: 10%;
 }
@@ -146,6 +160,13 @@ main>.info{
     width: 90%;
     height: 100%;
     background: url("HW1/toggle_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.togScreen2{
+    width: 90%;
+    height: 100%;
+    background: url("HW1/toggle_2.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -253,6 +274,7 @@ main>.info{
     background-size: cover;
 }
 .ho{
+    z-index: 5;
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
     font-size: 30px;
@@ -267,6 +289,7 @@ main>.info{
     color: white;
 }
 .ho:hover{
+    z-index: 5;
     position: relative;
     border-radius: 10px;
     background-color: black;
@@ -275,6 +298,24 @@ main>.info{
     right: -320px;
     width: 190px;
     height: 160px;
+}
+.pray{
+    text-align:center;
+    /* line-height: 400px; */
+    z-index: 4;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+    opacity: 0.01;
+    top: -900px;
+    right: 360px;
+    width: 1200px;
+    height: 1000px;
+    background-color: lightcoral;
+    color: white;
 }
 .pic3{
     width: 210px;
@@ -293,4 +334,21 @@ main>.info{
     background-image: url("HW1/pic_4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.egg{
+    position: relative;
+    top: -678px;
+    left: 1011px;
+    width: 10px;
+    height: 10px;
+    opacity: 0.5;
+}
+.egg2{
+    position: relative;
+    top: -434px;
+    left: 875px;
+    width: 10px;
+    height: 10px;
+    opacity: 0.5;
 }
